@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./public/styles/root.css">
+  <link rel="stylesheet" href="./public/styles/main.css">
+  <title>Sidebar Challenge</title>
+</head>
+<body>
+  <main>
+    <aside>
+      <section
+        class="logo-container"
+      >
+        <img 
+          class="logo" 
+          src="./public/assets/logo.svg" 
+          alt="Logo"
+        >
+        <button>
+          <img 
+            src="./public/assets/menu.svg" 
+            alt="Menu Mobile"
+          >
+        </button>
+      </section>
+      <section
+        class="side-links-container"
+      >
+        <div class="side-link active">
+          <img src="./public/assets/search.svg" alt="">
+          <span class="">Buscar</span>
+        </div>
+        <div class="side-link">
+          <img src="./public/assets/grid.svg" alt="">
+          <span class="">Dashboard</span>
+        </div>
+        <div class="side-link">
+          <img src="./public/assets/pet.svg" alt="">
+          <span class="">Pets</span>
+        </div>
+        <div class="side-link">
+          <img src="./public/assets/user.svg" alt="">
+          <span class="">Clientes</span>
+        </div>
+        <div class="side-link">
+          <img src="./public/assets/vet.svg" alt="">
+          <span class="">Vets</span>
+        </div>
+        <div class="side-link">
+          <img src="./public/assets/settings.svg" alt="">
+          <span class="">Ajustes</span>
+        </div>
+      </section>
+      <section
+        class="user-info-container"
+      >
+      <div class="user-main-info">
+        <img class="avatar" src="./public/assets/avatar.png" alt="">
+        <div class="name-container">
+          <span>Eleanor Pena</span>
+          <span>Veterinária</span>
+        </div>
+      </div>
+        <button>
+          <img src="./public/assets/log-out.svg" alt="">
+        </button>
+      </section>
+    </aside>
+    <section
+      class="content"
+    >
+      <h1>Dashboard</h1>
+    </section>
+  </main>
+  <script src="./public/scripts/main.js"></script>
+</body>
+</html>
